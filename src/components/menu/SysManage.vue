@@ -1,38 +1,277 @@
-﻿<template>
-   <div>
-  <b-navbar toggleable="lg" type="dark" variant="info">
-    <b-navbar-brand href="#">NavBar</b-navbar-brand>
+<template>
+	<div>
+		<div id="sys_head">
+			<b-navbar toggleable="lg" type="dark" variant="info">
+				<b-navbar-brand href="#">商标</b-navbar-brand>
 
-    <b-navbar-toggle target="nav_collapse" />
+				<b-navbar-toggle target="nav_collapse" />
 
-    <b-collapse is-nav id="nav_collapse">
-      <b-navbar-nav>
-        <b-nav-item href="#">Link</b-nav-item>
-        <b-nav-item href="#" disabled>Disabled</b-nav-item>
-      </b-navbar-nav>
+				<b-collapse is-nav id="nav_collapse">
+					<b-navbar-nav>
+						<b-nav-item href="#">首页</b-nav-item>
+						<b-nav-item href="#">商户中心</b-nav-item>
+						<b-nav-item href="#">在线客服</b-nav-item>
+						<b-nav-item href="#">意见反馈</b-nav-item>
+					</b-navbar-nav>
 
-      <!-- Right aligned nav items -->
-      <b-navbar-nav class="ml-auto">
-        <b-nav-form>
-          <b-form-input size="sm" class="mr-sm-2" type="text" placeholder="Search" />
-          <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
-        </b-nav-form>
+					<!-- Right aligned nav items -->
+					<b-navbar-nav class="ml-auto">
+						<b-nav-item-dropdown text="Lang" right>
+							<b-dropdown-item href="#">EN</b-dropdown-item>
+							<b-dropdown-item href="#">ES</b-dropdown-item>
+							<b-dropdown-item href="#">RU</b-dropdown-item>
+							<b-dropdown-item href="#">FA</b-dropdown-item>
+						</b-nav-item-dropdown>
 
-        <b-nav-item-dropdown text="Lang" right>
-          <b-dropdown-item href="#">EN</b-dropdown-item>
-          <b-dropdown-item href="#">ES</b-dropdown-item>
-          <b-dropdown-item href="#">RU</b-dropdown-item>
-          <b-dropdown-item href="#">FA</b-dropdown-item>
-        </b-nav-item-dropdown>
+						<b-nav-item-dropdown right>
+							<!-- Using button-content slot -->
+							<template slot="button-content"><em>User</em></template>
+							<b-dropdown-item href="#">Profile</b-dropdown-item>
+							<b-dropdown-item href="#">Signout</b-dropdown-item>
+						</b-nav-item-dropdown>
+					</b-navbar-nav>
+				</b-collapse>
+			</b-navbar>
+		</div>
+		<div id="sys_body">
+			<div role="tablist" id="sys_left">
+				<b-card no-body class="mb-1">
+					<b-card-header header-tag="header" class="p-1" role="tab">
+						<b-button block href="#" v-b-toggle.accordion1 variant="info">网站设置</b-button>
+					</b-card-header>
+					<b-collapse id="accordion1" visible accordion="my-accordion" role="tabpanel">
+						<b-card-body>
+							<b-button-group vertical>
+								<b-button variant="info">Top</b-button>
+								<b-button variant="info">Middle</b-button>
+								<b-button variant="info">Bottom</b-button>
+							</b-button-group>
+						</b-card-body>
+					</b-collapse>
+				</b-card>
+				<b-card no-body class="mb-1">
+					<b-card-header header-tag="header" class="p-1" role="tab">
+						<b-button block href="#" v-b-toggle.accordion2 variant="info">网站营销</b-button>
+					</b-card-header>
+					<b-collapse id="accordion2" accordion="my-accordion" role="tabpanel">
+						<b-card-body>
+							<b-button-group vertical>
+								<b-button variant="info">Top</b-button>
+								<b-button variant="info">Middle</b-button>
+								<b-button variant="info">Bottom</b-button>
+							</b-button-group>
+						</b-card-body>
+					</b-collapse>
+				</b-card>
+				<b-card no-body class="mb-1">
+					<b-card-header header-tag="header" class="p-1" role="tab">
+						<b-button block href="#" v-b-toggle.accordion3 variant="info">网站运营</b-button>
+					</b-card-header>
+					<b-collapse id="accordion3" accordion="my-accordion" role="tabpanel">
+						<b-card-body>
+							<b-button-group vertical>
+								<b-button variant="info">Top</b-button>
+								<b-button variant="info">Middle</b-button>
+								<b-button variant="info">Bottom</b-button>
+							</b-button-group>
+						</b-card-body>
+					</b-collapse>
+				</b-card>
+				<b-card no-body class="mb-1">
+					<b-card-header header-tag="header" class="p-1" role="tab">
+						<b-button block href="#" v-b-toggle.accordion4 variant="info">商品管理</b-button>
+					</b-card-header>
+					<b-collapse id="accordion4" accordion="my-accordion" role="tabpanel">
+						<b-card-body>
+							<b-button-group vertical>
+								<b-button variant="info">Top</b-button>
+								<b-button variant="info">Middle</b-button>
+								<b-button variant="info">Bottom</b-button>
+							</b-button-group>
+						</b-card-body>
+					</b-collapse>
+				</b-card>
+				<b-card no-body class="mb-1">
+					<b-card-header header-tag="header" class="p-1" role="tab">
+						<b-button block href="#" v-b-toggle.accordion5 variant="info">我要进货</b-button>
+					</b-card-header>
+					<b-collapse id="accordion5" accordion="my-accordion" role="tabpanel">
+						<b-card-body>
+							<b-button-group vertical>
+								<b-button variant="info">Top</b-button>
+								<b-button variant="info">Middle</b-button>
+								<b-button variant="info">Bottom</b-button>
+							</b-button-group>
+						</b-card-body>
+					</b-collapse>
+				</b-card>
+				<b-card no-body class="mb-1">
+					<b-card-header header-tag="header" class="p-1" role="tab">
+						<b-button block href="#" v-b-toggle.accordion6 variant="info">我要供货</b-button>
+					</b-card-header>
+					<b-collapse id="accordion6" accordion="my-accordion" role="tabpanel">
+						<b-card-body>
+							<b-button-group vertical>
+								<b-button variant="info">Top</b-button>
+								<b-button variant="info">Middle</b-button>
+								<b-button variant="info">Bottom</b-button>
+							</b-button-group>
+						</b-card-body>
+					</b-collapse>
+				</b-card>
+				<b-card no-body class="mb-1">
+					<b-card-header header-tag="header" class="p-1" role="tab">
+						<b-button block href="#" v-b-toggle.accordion7 variant="info">客户管理</b-button>
+					</b-card-header>
+					<b-collapse id="accordion7" accordion="my-accordion" role="tabpanel">
+						<b-card-body>
+							<b-button-group vertical>
+								<b-button variant="info">Top</b-button>
+								<b-button variant="info">Middle</b-button>
+								<b-button variant="info">Bottom</b-button>
+							</b-button-group>
+						</b-card-body>
+					</b-collapse>
+				</b-card>
+				<b-card no-body class="mb-1">
+					<b-card-header header-tag="header" class="p-1" role="tab">
+						<b-button block href="#" v-b-toggle.accordion8 variant="info">子站管理</b-button>
+					</b-card-header>
+					<b-collapse id="accordion8" accordion="my-accordion" role="tabpanel">
+						<b-card-body>
+							<b-button-group vertical>
+								<b-button variant="info">Top</b-button>
+								<b-button variant="info">Middle</b-button>
+								<b-button variant="info">Bottom</b-button>
+							</b-button-group>
+						</b-card-body>
+					</b-collapse>
+				</b-card>
+				<b-card no-body class="mb-1">
+					<b-card-header header-tag="header" class="p-1" role="tab">
+						<b-button block href="#" v-b-toggle.accordion9 variant="info">订单管理</b-button>
+					</b-card-header>
+					<b-collapse id="accordion9" accordion="my-accordion" role="tabpanel">
+						<b-card-body>
+							<b-button-group vertical>
+								<b-button variant="info">Top</b-button>
+								<b-button variant="info">Middle</b-button>
+								<b-button variant="info">Bottom</b-button>
+							</b-button-group>
+						</b-card-body>
+					</b-collapse>
+				</b-card>
+				<b-card no-body class="mb-1">
+					<b-card-header header-tag="header" class="p-1" role="tab">
+						<b-button block href="#" v-b-toggle.accordion10 variant="info">客服管理</b-button>
+					</b-card-header>
+					<b-collapse id="accordion10" accordion="my-accordion" role="tabpanel">
+						<b-card-body>
+							<b-button-group vertical>
+								<b-button variant="info">Top</b-button>
+								<b-button variant="info">Middle</b-button>
+								<b-button variant="info">Bottom</b-button>
+							</b-button-group>
+						</b-card-body>
+					</b-collapse>
+				</b-card>
+				<b-card no-body class="mb-1">
+					<b-card-header header-tag="header" class="p-1" role="tab">
+						<b-button block href="#" v-b-toggle.accordion11 variant="info">财务管理</b-button>
+					</b-card-header>
+					<b-collapse id="accordion11" accordion="my-accordion" role="tabpanel">
+						<b-card-body>
+							<b-button-group vertical>
+								<b-button variant="info">Top</b-button>
+								<b-button variant="info">Middle</b-button>
+								<b-button variant="info">Bottom</b-button>
+							</b-button-group>
+						</b-card-body>
+					</b-collapse>
+				</b-card>
+				<b-card no-body class="mb-1">
+					<b-card-header header-tag="header" class="p-1" role="tab">
+						<b-button block href="#" v-b-toggle.accordion12 variant="info">一卡通管理</b-button>
+					</b-card-header>
+					<b-collapse id="accordion12" accordion="my-accordion" role="tabpanel">
+						<b-card-body>
+							<b-button-group vertical>
+								<b-button variant="info">Top</b-button>
+								<b-button variant="info">Middle</b-button>
+								<b-button variant="info">Bottom</b-button>
+							</b-button-group>
+						</b-card-body>
+					</b-collapse>
+				</b-card>
+				<b-card no-body class="mb-1">
+					<b-card-header header-tag="header" class="p-1" role="tab">
+						<b-button block href="#" v-b-toggle.accordion13 variant="info">子站装修</b-button>
+					</b-card-header>
+					<b-collapse id="accordion13" accordion="my-accordion" role="tabpanel">
+						<b-card-body>
+							<b-button-group vertical>
+								<b-button variant="info">Top</b-button>
+								<b-button variant="info">Middle</b-button>
+								<b-button variant="info">Bottom</b-button>
+							</b-button-group>
+						</b-card-body>
+					</b-collapse>
+				</b-card>
+				<b-card no-body class="mb-1">
+					<b-card-header header-tag="header" class="p-1" role="tab">
+						<b-button block href="#" v-b-toggle.accordion14 variant="info">数据统计</b-button>
+					</b-card-header>
+					<b-collapse id="accordion14" accordion="my-accordion" role="tabpanel">
+						<b-card-body>
+							<b-button-group vertical>
+								<b-button variant="info">Top</b-button>
+								<b-button variant="info">Middle</b-button>
+								<b-button variant="info">Bottom</b-button>
+							</b-button-group>
+						</b-card-body>
+					</b-collapse>
+				</b-card>
+			</div>
+			<!-- // 内容 -->
+			<div id="sys_content">
+				<router-view></router-view>
+			</div>
+		</div>
+	</div>
+</template>
 
-        <b-nav-item-dropdown right>
-          <!-- Using button-content slot -->
-          <template slot="button-content"><em>User</em></template>
-          <b-dropdown-item href="#">Profile</b-dropdown-item>
-          <b-dropdown-item href="#">Signout</b-dropdown-item>
-        </b-nav-item-dropdown>
-      </b-navbar-nav>
-    </b-collapse>
-  </b-navbar>
-</div>
-</template>﻿
+<script>
+</script>
+<style>
+	#sys_head{
+		width: 100%;
+	}
+	#sys_body{
+		width: 100%;
+	}
+	#sys_left{
+		width: 20%;
+	}
+	.card{
+		border: 0;
+	}
+	.p-1{
+		padding: 0;
+	}
+	.card-body{
+		padding: 0;
+	}
+	.btn-group-vertical{
+		width: 100%;
+		height: 100%;
+	}
+	.my-1{
+		border: 0;
+		margin-bottom: 0;
+	}
+	.navbar-brand{
+		width: 50%;
+		/* margin-left: 500px; */
+		/* position: right; */
+	}
+</style>
