@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import HelloWorld from '@/components/HelloWorld'
 import SysManage from '@/components/menu/SysManage'
+import Websit from '@/components/menu/websit_setting/Websit_1'
 
 Vue.use(Router)
 
@@ -11,6 +11,11 @@ export default new Router({
       path: '/',
       name: 'menu',
       component: SysManage
+    },
+    {
+      path: '/websit_setting',
+      name: 'setting',
+      component: Websit
     }
   ]
 })

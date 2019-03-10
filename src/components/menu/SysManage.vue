@@ -40,13 +40,15 @@
 						<b-button block href="#" v-b-toggle.accordion1 variant="info">网站设置</b-button>
 					</b-card-header>
 					<b-collapse id="accordion1" visible accordion="my-accordion" role="tabpanel">
-						<b-card-body>
-							<b-button-group vertical>
-								<b-button variant="info">Top</b-button>
-								<b-button variant="info">Middle</b-button>
-								<b-button variant="info">Bottom</b-button>
-							</b-button-group>
-						</b-card-body>
+						<router-link tag="li" to="/websit_seting">
+							<a>Top</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Middle</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Bottom</a>
+						</router-link>
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
@@ -54,13 +56,15 @@
 						<b-button block href="#" v-b-toggle.accordion2 variant="info">网站营销</b-button>
 					</b-card-header>
 					<b-collapse id="accordion2" accordion="my-accordion" role="tabpanel">
-						<b-card-body>
-							<b-button-group vertical>
-								<b-button variant="info">Top</b-button>
-								<b-button variant="info">Middle</b-button>
-								<b-button variant="info">Bottom</b-button>
-							</b-button-group>
-						</b-card-body>
+						<router-link tag="li" to="/websit_seting">
+							<a>Top</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Middle</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Bottom</a>
+						</router-link>
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
@@ -68,13 +72,15 @@
 						<b-button block href="#" v-b-toggle.accordion3 variant="info">网站运营</b-button>
 					</b-card-header>
 					<b-collapse id="accordion3" accordion="my-accordion" role="tabpanel">
-						<b-card-body>
-							<b-button-group vertical>
-								<b-button variant="info">Top</b-button>
-								<b-button variant="info">Middle</b-button>
-								<b-button variant="info">Bottom</b-button>
-							</b-button-group>
-						</b-card-body>
+						<router-link tag="li" to="/websit_seting">
+							<a>Top</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Middle</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Bottom</a>
+						</router-link>
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
@@ -82,13 +88,15 @@
 						<b-button block href="#" v-b-toggle.accordion4 variant="info">商品管理</b-button>
 					</b-card-header>
 					<b-collapse id="accordion4" accordion="my-accordion" role="tabpanel">
-						<b-card-body>
-							<b-button-group vertical>
-								<b-button variant="info">Top</b-button>
-								<b-button variant="info">Middle</b-button>
-								<b-button variant="info">Bottom</b-button>
-							</b-button-group>
-						</b-card-body>
+						<router-link tag="li" to="/websit_seting">
+							<a>Top</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Middle</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Bottom</a>
+						</router-link>
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
@@ -96,13 +104,15 @@
 						<b-button block href="#" v-b-toggle.accordion5 variant="info">我要进货</b-button>
 					</b-card-header>
 					<b-collapse id="accordion5" accordion="my-accordion" role="tabpanel">
-						<b-card-body>
-							<b-button-group vertical>
-								<b-button variant="info">Top</b-button>
-								<b-button variant="info">Middle</b-button>
-								<b-button variant="info">Bottom</b-button>
-							</b-button-group>
-						</b-card-body>
+						<router-link tag="li" to="/websit_seting">
+							<a>Top</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Middle</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Bottom</a>
+						</router-link>
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
@@ -110,13 +120,15 @@
 						<b-button block href="#" v-b-toggle.accordion6 variant="info">我要供货</b-button>
 					</b-card-header>
 					<b-collapse id="accordion6" accordion="my-accordion" role="tabpanel">
-						<b-card-body>
-							<b-button-group vertical>
-								<b-button variant="info">Top</b-button>
-								<b-button variant="info">Middle</b-button>
-								<b-button variant="info">Bottom</b-button>
-							</b-button-group>
-						</b-card-body>
+						<router-link tag="li" to="/websit_seting">
+							<a>Top</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Middle</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Bottom</a>
+						</router-link>
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
@@ -124,13 +136,15 @@
 						<b-button block href="#" v-b-toggle.accordion7 variant="info">客户管理</b-button>
 					</b-card-header>
 					<b-collapse id="accordion7" accordion="my-accordion" role="tabpanel">
-						<b-card-body>
-							<b-button-group vertical>
-								<b-button variant="info">Top</b-button>
-								<b-button variant="info">Middle</b-button>
-								<b-button variant="info">Bottom</b-button>
-							</b-button-group>
-						</b-card-body>
+						<router-link tag="li" to="/websit_seting">
+							<a>Top</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Middle</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Bottom</a>
+						</router-link>
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
@@ -138,13 +152,15 @@
 						<b-button block href="#" v-b-toggle.accordion8 variant="info">子站管理</b-button>
 					</b-card-header>
 					<b-collapse id="accordion8" accordion="my-accordion" role="tabpanel">
-						<b-card-body>
-							<b-button-group vertical>
-								<b-button variant="info">Top</b-button>
-								<b-button variant="info">Middle</b-button>
-								<b-button variant="info">Bottom</b-button>
-							</b-button-group>
-						</b-card-body>
+						<router-link tag="li" to="/websit_seting">
+							<a>Top</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Middle</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Bottom</a>
+						</router-link>
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
@@ -152,13 +168,15 @@
 						<b-button block href="#" v-b-toggle.accordion9 variant="info">订单管理</b-button>
 					</b-card-header>
 					<b-collapse id="accordion9" accordion="my-accordion" role="tabpanel">
-						<b-card-body>
-							<b-button-group vertical>
-								<b-button variant="info">Top</b-button>
-								<b-button variant="info">Middle</b-button>
-								<b-button variant="info">Bottom</b-button>
-							</b-button-group>
-						</b-card-body>
+						<router-link tag="li" to="/websit_seting">
+							<a>Top</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Middle</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Bottom</a>
+						</router-link>
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
@@ -166,13 +184,15 @@
 						<b-button block href="#" v-b-toggle.accordion10 variant="info">客服管理</b-button>
 					</b-card-header>
 					<b-collapse id="accordion10" accordion="my-accordion" role="tabpanel">
-						<b-card-body>
-							<b-button-group vertical>
-								<b-button variant="info">Top</b-button>
-								<b-button variant="info">Middle</b-button>
-								<b-button variant="info">Bottom</b-button>
-							</b-button-group>
-						</b-card-body>
+						<router-link tag="li" to="/websit_seting">
+							<a>Top</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Middle</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Bottom</a>
+						</router-link>
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
@@ -180,13 +200,15 @@
 						<b-button block href="#" v-b-toggle.accordion11 variant="info">财务管理</b-button>
 					</b-card-header>
 					<b-collapse id="accordion11" accordion="my-accordion" role="tabpanel">
-						<b-card-body>
-							<b-button-group vertical>
-								<b-button variant="info">Top</b-button>
-								<b-button variant="info">Middle</b-button>
-								<b-button variant="info">Bottom</b-button>
-							</b-button-group>
-						</b-card-body>
+						<router-link tag="li" to="/websit_seting">
+							<a>Top</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Middle</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Bottom</a>
+						</router-link>
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
@@ -194,13 +216,15 @@
 						<b-button block href="#" v-b-toggle.accordion12 variant="info">一卡通管理</b-button>
 					</b-card-header>
 					<b-collapse id="accordion12" accordion="my-accordion" role="tabpanel">
-						<b-card-body>
-							<b-button-group vertical>
-								<b-button variant="info">Top</b-button>
-								<b-button variant="info">Middle</b-button>
-								<b-button variant="info">Bottom</b-button>
-							</b-button-group>
-						</b-card-body>
+						<router-link tag="li" to="/websit_seting">
+							<a>Top</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Middle</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Bottom</a>
+						</router-link>
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
@@ -208,13 +232,15 @@
 						<b-button block href="#" v-b-toggle.accordion13 variant="info">子站装修</b-button>
 					</b-card-header>
 					<b-collapse id="accordion13" accordion="my-accordion" role="tabpanel">
-						<b-card-body>
-							<b-button-group vertical>
-								<b-button variant="info">Top</b-button>
-								<b-button variant="info">Middle</b-button>
-								<b-button variant="info">Bottom</b-button>
-							</b-button-group>
-						</b-card-body>
+						<router-link tag="li" to="/websit_seting">
+							<a>Top</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Middle</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Bottom</a>
+						</router-link>
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
@@ -222,13 +248,15 @@
 						<b-button block href="#" v-b-toggle.accordion14 variant="info">数据统计</b-button>
 					</b-card-header>
 					<b-collapse id="accordion14" accordion="my-accordion" role="tabpanel">
-						<b-card-body>
-							<b-button-group vertical>
-								<b-button variant="info">Top</b-button>
-								<b-button variant="info">Middle</b-button>
-								<b-button variant="info">Bottom</b-button>
-							</b-button-group>
-						</b-card-body>
+						<router-link tag="li" to="/websit_seting">
+							<a>Top</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Middle</a>
+						</router-link>
+						<router-link tag="li" to="/websit_seting">
+							<a>Bottom</a>
+						</router-link>
 					</b-collapse>
 				</b-card>
 			</div>
@@ -253,10 +281,10 @@
 		width: 20%;
 	}
 	.card{
-		border: 0;
+		border: 1;
 	}
 	.p-1{
-		padding: 0;
+		padding: 0 !important;
 	}
 	.card-body{
 		padding: 0;
@@ -265,13 +293,24 @@
 		width: 100%;
 		height: 100%;
 	}
-	.my-1{
+	.mb-1,.my-1{
 		border: 0;
-		margin-bottom: 0;
+		margin-bottom: 0 !important;
 	}
 	.navbar-brand{
 		width: 50%;
 		/* margin-left: 500px; */
 		/* position: right; */
 	}
+	.mb-1 a{
+		 display : block;
+		 text-decoration: none;
+	}
+	.mb-1 li{
+		list-style-type: none;
+		list-style-image: none;
+		background: #42B983;
+		text-decoration: none;
+	}
+
 </style>
