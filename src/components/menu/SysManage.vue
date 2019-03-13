@@ -2,7 +2,7 @@
 	<div>
 		<div id="sys_head">
 			<b-navbar toggleable="lg" type="dark" variant="info">
-				<b-navbar-brand href="#">商标</b-navbar-brand>
+				<b-navbar-brand href="#">Logo</b-navbar-brand>
 
 				<b-navbar-toggle target="nav_collapse" />
 
@@ -57,13 +57,13 @@
 					</b-card-header>
 					<b-collapse id="accordion2" accordion="my-accordion" role="tabpanel">
 						<router-link tag="li" to="/websit">
-							<a>Top</a>
+							<a>微信支付</a>
 						</router-link>
 						<router-link tag="li" to="/websit">
-							<a>Middle</a>
+							<a>支付宝支付</a>
 						</router-link>
 						<router-link tag="li" to="/websit">
-							<a>Bottom</a>
+							<a>银联卡支付</a>
 						</router-link>
 					</b-collapse>
 				</b-card>
@@ -73,13 +73,13 @@
 					</b-card-header>
 					<b-collapse id="accordion3" accordion="my-accordion" role="tabpanel">
 						<router-link tag="li" to="/websit">
-							<a>Top</a>
+							<a>主站版本设置</a>
 						</router-link>
 						<router-link tag="li" to="/websit">
-							<a>Middle</a>
+							<a>分站版本设置</a>
 						</router-link>
 						<router-link tag="li" to="/websit">
-							<a>Bottom</a>
+							<a>分站版本设置</a>
 						</router-link>
 					</b-collapse>
 				</b-card>
@@ -89,14 +89,14 @@
 					</b-card-header>
 					<b-collapse id="accordion4" accordion="my-accordion" role="tabpanel">
 						<router-link tag="li" to="/websit">
-							<a>Top</a>
+							<a>主站域名</a>
 						</router-link>
 						<router-link tag="li" to="/websit">
-							<a>Middle</a>
+							<a>分站域名</a>
 						</router-link>
-						<router-link tag="li" to="/websit">
+						<!-- <router-link tag="li" to="/websit">
 							<a>Bottom</a>
-						</router-link>
+						</router-link> -->
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
@@ -105,14 +105,14 @@
 					</b-card-header>
 					<b-collapse id="accordion5" accordion="my-accordion" role="tabpanel">
 						<router-link tag="li" to="/websit">
-							<a>Top</a>
+							<a>商户提现申请处理</a>
 						</router-link>
 						<router-link tag="li" to="/websit">
-							<a>Middle</a>
+							<a>商户资金查询</a>
 						</router-link>
-						<router-link tag="li" to="/websit">
+						<!-- <router-link tag="li" to="/websit">
 							<a>Bottom</a>
-						</router-link>
+						</router-link> -->
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
@@ -121,14 +121,14 @@
 					</b-card-header>
 					<b-collapse id="accordion6" accordion="my-accordion" role="tabpanel">
 						<router-link tag="li" to="/websit">
-							<a>Top</a>
+							<a>主站列表</a>
 						</router-link>
-						<router-link tag="li" to="/websit">
+						<!-- <router-link tag="li" to="/websit">
 							<a>Middle</a>
 						</router-link>
 						<router-link tag="li" to="/websit">
 							<a>Bottom</a>
-						</router-link>
+						</router-link> -->
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
@@ -137,13 +137,13 @@
 					</b-card-header>
 					<b-collapse id="accordion7" accordion="my-accordion" role="tabpanel">
 						<router-link tag="li" to="/websit">
-							<a>Top</a>
+							<a>全网通主站排名</a>
 						</router-link>
 						<router-link tag="li" to="/websit">
-							<a>Middle</a>
+							<a>全网通商品排名</a>
 						</router-link>
 						<router-link tag="li" to="/websit">
-							<a>Bottom</a>
+							<a>一键通主站排名</a>
 						</router-link>
 					</b-collapse>
 				</b-card>
