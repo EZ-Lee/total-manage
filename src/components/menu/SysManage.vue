@@ -2,7 +2,7 @@
 	<div>
 		<div id="sys_head">
 			<b-navbar toggleable="lg" type="dark" variant="info">
-				<b-navbar-brand href="#">商标</b-navbar-brand>
+				<b-navbar-brand href="#">Logo</b-navbar-brand>
 
 				<b-navbar-toggle target="nav_collapse" />
 
@@ -37,225 +37,113 @@
 			<div role="tablist" id="sys_left">
 				<b-card no-body class="mb-1">
 					<b-card-header header-tag="header" class="p-1" role="tab">
-						<b-button block href="#" v-b-toggle.accordion1 variant="info">网站设置</b-button>
+						<b-button block href="#" v-b-toggle.accordion1 variant="info">系统装修</b-button>
 					</b-card-header>
 					<b-collapse id="accordion1" visible accordion="my-accordion" role="tabpanel">
-						<router-link tag="li" to="/web">
+						<router-link tag="li" to="/websit">
 							<a>Top</a>
 						</router-link>
-						<router-link tag="li" to="/web">
+						<router-link tag="li" to="/websit">
 							<a>Middle</a>
 						</router-link>
-						<router-link tag="li" to="/websit_seting">
+						<router-link tag="li" to="/websit">
 							<a>Bottom</a>
 						</router-link>
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
 					<b-card-header header-tag="header" class="p-1" role="tab">
-						<b-button block href="#" v-b-toggle.accordion2 variant="info">网站营销</b-button>
+						<b-button block href="#" v-b-toggle.accordion2 variant="info">支付接口设置</b-button>
 					</b-card-header>
 					<b-collapse id="accordion2" accordion="my-accordion" role="tabpanel">
-						<router-link tag="li" to="/websit_seting">
-							<a>Top</a>
+						<router-link tag="li" to="/websit">
+							<a>微信支付</a>
 						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Middle</a>
+						<router-link tag="li" to="/websit">
+							<a>支付宝支付</a>
 						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Bottom</a>
+						<router-link tag="li" to="/websit">
+							<a>银联卡支付</a>
 						</router-link>
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
 					<b-card-header header-tag="header" class="p-1" role="tab">
-						<b-button block href="#" v-b-toggle.accordion3 variant="info">网站运营</b-button>
+						<b-button block href="#" v-b-toggle.accordion3 variant="info">主站版本管理</b-button>
 					</b-card-header>
 					<b-collapse id="accordion3" accordion="my-accordion" role="tabpanel">
-						<router-link tag="li" to="/websit_seting">
-							<a>Top</a>
+						<router-link tag="li" to="/websit">
+							<a>主站版本设置</a>
 						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Middle</a>
+						<router-link tag="li" to="/websit">
+							<a>分站版本设置</a>
 						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Bottom</a>
+						<router-link tag="li" to="/websit">
+							<a>分站版本设置</a>
 						</router-link>
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
 					<b-card-header header-tag="header" class="p-1" role="tab">
-						<b-button block href="#" v-b-toggle.accordion4 variant="info">商品管理</b-button>
+						<b-button block href="#" v-b-toggle.accordion4 variant="info">可用域名管理</b-button>
 					</b-card-header>
 					<b-collapse id="accordion4" accordion="my-accordion" role="tabpanel">
-						<router-link tag="li" to="/websit_seting">
-							<a>Top</a>
+						<router-link tag="li" to="/websit">
+							<a>主站域名</a>
 						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Middle</a>
+						<router-link tag="li" to="/websit">
+							<a>分站域名</a>
 						</router-link>
-						<router-link tag="li" to="/websit_seting">
+						<!-- <router-link tag="li" to="/websit">
 							<a>Bottom</a>
-						</router-link>
+						</router-link> -->
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
 					<b-card-header header-tag="header" class="p-1" role="tab">
-						<b-button block href="#" v-b-toggle.accordion5 variant="info">我要进货</b-button>
+						<b-button block href="#" v-b-toggle.accordion5 variant="info">商户资金结算</b-button>
 					</b-card-header>
 					<b-collapse id="accordion5" accordion="my-accordion" role="tabpanel">
-						<router-link tag="li" to="/websit_seting">
-							<a>Top</a>
+						<router-link tag="li" to="/websit">
+							<a>商户提现申请处理</a>
 						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Middle</a>
+						<router-link tag="li" to="/websit">
+							<a>商户资金查询</a>
 						</router-link>
-						<router-link tag="li" to="/websit_seting">
+						<!-- <router-link tag="li" to="/websit">
 							<a>Bottom</a>
-						</router-link>
+						</router-link> -->
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
 					<b-card-header header-tag="header" class="p-1" role="tab">
-						<b-button block href="#" v-b-toggle.accordion6 variant="info">我要供货</b-button>
+						<b-button block href="#" v-b-toggle.accordion6 variant="info">主站管理</b-button>
 					</b-card-header>
 					<b-collapse id="accordion6" accordion="my-accordion" role="tabpanel">
-						<router-link tag="li" to="/websit_seting">
-							<a>Top</a>
+						<router-link tag="li" to="/websit">
+							<a>主站列表</a>
 						</router-link>
-						<router-link tag="li" to="/websit_seting">
+						<!-- <router-link tag="li" to="/websit">
 							<a>Middle</a>
 						</router-link>
-						<router-link tag="li" to="/websit_seting">
+						<router-link tag="li" to="/websit">
 							<a>Bottom</a>
-						</router-link>
+						</router-link> -->
 					</b-collapse>
 				</b-card>
 				<b-card no-body class="mb-1">
 					<b-card-header header-tag="header" class="p-1" role="tab">
-						<b-button block href="#" v-b-toggle.accordion7 variant="info">客户管理</b-button>
+						<b-button block href="#" v-b-toggle.accordion7 variant="info">主站货源推荐</b-button>
 					</b-card-header>
 					<b-collapse id="accordion7" accordion="my-accordion" role="tabpanel">
-						<router-link tag="li" to="/websit_seting">
-							<a>Top</a>
+						<router-link tag="li" to="/websit">
+							<a>全网通主站排名</a>
 						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Middle</a>
+						<router-link tag="li" to="/websit">
+							<a>全网通商品排名</a>
 						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Bottom</a>
-						</router-link>
-					</b-collapse>
-				</b-card>
-				<b-card no-body class="mb-1">
-					<b-card-header header-tag="header" class="p-1" role="tab">
-						<b-button block href="#" v-b-toggle.accordion8 variant="info">子站管理</b-button>
-					</b-card-header>
-					<b-collapse id="accordion8" accordion="my-accordion" role="tabpanel">
-						<router-link tag="li" to="/websit_seting">
-							<a>Top</a>
-						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Middle</a>
-						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Bottom</a>
-						</router-link>
-					</b-collapse>
-				</b-card>
-				<b-card no-body class="mb-1">
-					<b-card-header header-tag="header" class="p-1" role="tab">
-						<b-button block href="#" v-b-toggle.accordion9 variant="info">订单管理</b-button>
-					</b-card-header>
-					<b-collapse id="accordion9" accordion="my-accordion" role="tabpanel">
-						<router-link tag="li" to="/websit_seting">
-							<a>Top</a>
-						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Middle</a>
-						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Bottom</a>
-						</router-link>
-					</b-collapse>
-				</b-card>
-				<b-card no-body class="mb-1">
-					<b-card-header header-tag="header" class="p-1" role="tab">
-						<b-button block href="#" v-b-toggle.accordion10 variant="info">客服管理</b-button>
-					</b-card-header>
-					<b-collapse id="accordion10" accordion="my-accordion" role="tabpanel">
-						<router-link tag="li" to="/websit_seting">
-							<a>Top</a>
-						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Middle</a>
-						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Bottom</a>
-						</router-link>
-					</b-collapse>
-				</b-card>
-				<b-card no-body class="mb-1">
-					<b-card-header header-tag="header" class="p-1" role="tab">
-						<b-button block href="#" v-b-toggle.accordion11 variant="info">财务管理</b-button>
-					</b-card-header>
-					<b-collapse id="accordion11" accordion="my-accordion" role="tabpanel">
-						<router-link tag="li" to="/websit_seting">
-							<a>Top</a>
-						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Middle</a>
-						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Bottom</a>
-						</router-link>
-					</b-collapse>
-				</b-card>
-				<b-card no-body class="mb-1">
-					<b-card-header header-tag="header" class="p-1" role="tab">
-						<b-button block href="#" v-b-toggle.accordion12 variant="info">一卡通管理</b-button>
-					</b-card-header>
-					<b-collapse id="accordion12" accordion="my-accordion" role="tabpanel">
-						<router-link tag="li" to="/websit_seting">
-							<a>Top</a>
-						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Middle</a>
-						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Bottom</a>
-						</router-link>
-					</b-collapse>
-				</b-card>
-				<b-card no-body class="mb-1">
-					<b-card-header header-tag="header" class="p-1" role="tab">
-						<b-button block href="#" v-b-toggle.accordion13 variant="info">子站装修</b-button>
-					</b-card-header>
-					<b-collapse id="accordion13" accordion="my-accordion" role="tabpanel">
-						<router-link tag="li" to="/websit_seting">
-							<a>Top</a>
-						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Middle</a>
-						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Bottom</a>
-						</router-link>
-					</b-collapse>
-				</b-card>
-				<b-card no-body class="mb-1">
-					<b-card-header header-tag="header" class="p-1" role="tab">
-						<b-button block href="#" v-b-toggle.accordion14 variant="info">数据统计</b-button>
-					</b-card-header>
-					<b-collapse id="accordion14" accordion="my-accordion" role="tabpanel">
-						<router-link tag="li" to="/websit_seting">
-							<a>Top</a>
-						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Middle</a>
-						</router-link>
-						<router-link tag="li" to="/websit_seting">
-							<a>Bottom</a>
+						<router-link tag="li" to="/websit">
+							<a>一键通主站排名</a>
 						</router-link>
 					</b-collapse>
 				</b-card>
