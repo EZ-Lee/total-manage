@@ -40,10 +40,10 @@
 						<b-button block href="#" v-b-toggle.accordion1 variant="info">网站设置</b-button>
 					</b-card-header>
 					<b-collapse id="accordion1" visible accordion="my-accordion" role="tabpanel">
-						<router-link tag="li" to="/websit_seting">
+						<router-link tag="li" to="/web">
 							<a>Top</a>
 						</router-link>
-						<router-link tag="li" to="/websit_seting">
+						<router-link tag="li" to="/web">
 							<a>Middle</a>
 						</router-link>
 						<router-link tag="li" to="/websit_seting">
@@ -269,6 +269,9 @@
 </template>
 
 <script>
+	export default{
+		
+	}
 </script>
 <style>
 	#sys_head{
@@ -276,9 +279,14 @@
 	}
 	#sys_body{
 		width: 100%;
+		height: 100%;
 	}
 	#sys_left{
 		width: 20%;
+		float: left;
+	}
+	#sys_content{
+		float: left;
 	}
 	.card{
 		border: 1;

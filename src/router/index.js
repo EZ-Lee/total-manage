@@ -10,12 +10,12 @@ export default new Router({
     {
       path: '/',
       name: 'menu',
-      component: SysManage
-    },
-    {
-      path: '/websit_setting',
-      name: 'setting',
-      component: Websit
+      component: SysManage,
+	  children:[{
+		    path:'/web',
+		    name: 'setting',
+		    component: Websit
+		}]
     }
   ]
 })
