@@ -6,6 +6,15 @@ import router from './router'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+import './style/theme.css'
+import './style/character.css'
+import VueResource from 'vue-resource'
+Vue.use(VueResource)
+
+// 注册element-ui
+Vue.use(ElementUI)
 
 Vue.use(BootstrapVue)
 
@@ -18,3 +27,4 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+
