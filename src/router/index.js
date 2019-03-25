@@ -1,31 +1,29 @@
 import Vue from 'vue'
-import Router from 'vue-router'
+import VueRouter from 'vue-router'
 import Login from '@/components/Login'
 import SysManage from '@/components/menu/SysManage'
 import Websit from '@/components/menu/websit_setting/Websit_1'
 
-Vue.use(Router)
+Vue.use(VueRouter)
 
-export default new Router({
+export default new VueRouter({
   routes: [
-    { 
-			path: '/',
-			name: 'Login',
-			component: Login,
-			children: [
-				{
-					path: '/',
-					name: 'menu',
-					component: SysManage,
-					children: [
-							{
-							path:'/web',
-							name: 'setting',
-							component: Websit
-						}
-					]
-				}
-			]
+    {
+      path: '/login',
+      name: 'Login',
+      component: Login
+    },
+    {
+      path: '/',
+      name: 'menu',
+      component: SysManage,
+      children: [
+        {
+          path: '/web',
+          name: 'setting',
+          component: Websit
+        }
+      ]
     }
   ]
 })
