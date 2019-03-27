@@ -54,10 +54,8 @@ export default {
               thiz.$router.push({path: '/web'})
             })
             .catch(reason => {
-              thiz.$message.error(reason.message)
             })
         }).catch(reason => {
-          thiz.$message.error(reason.message)
         })
     }
   }

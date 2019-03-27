@@ -24,21 +24,15 @@ $http.interceptors.request.use(config => {
 
 $http.interceptors.response.use(
   function (response) {
+    if (response.data.status) {
+      ElementUI.Message.error(response.data.message)
+      return Promise.reject(response.data)
+    }
     return Promise.resolve(response)
   },
   function (error) {
-    /*switch (error.response.status) {
-      case 401:
-        ElementUI.Message.error('你无此操作权限')
-        break
-      case 403:
-        router.push({path: '/login'})
-        break*/
-
-        //}
-    error.request.onerror = function (err) {
-      alert(err.toString())
-    }
+    ElementUI.Message.error('登录失效,请重新登录')
+    router.push({path: '/login'})
     return Promise.reject(error)
   }
 )
