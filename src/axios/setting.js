@@ -7,7 +7,7 @@ const $http = axios.create({
   timeout: 10000 // 请求超时时间
 })
 
-$http.defaults.baseURL = 'http://localhost:8888/'
+$http.defaults.baseURL = 'http://106.14.113.90/'
 
 $http.interceptors.request.use(config => {
   config.headers = {
