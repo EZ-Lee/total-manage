@@ -51,7 +51,7 @@ export default {
           thiz.axios.get('user/api/account')
             .then(value => {
               thiz.$store.commit('saveUser', value.data)
-              thiz.$router.push({path: '/web'})
+              thiz.$router.push({path: '/domain'})
             })
             .catch(reason => {
             })

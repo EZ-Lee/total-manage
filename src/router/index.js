@@ -2,8 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Login from '@/components/Login'
 import SysManage from '@/components/menu/SysManage'
-import Websit from '@/components/menu/websit_setting/Websit_1'
-
+import Domain from '@/components/menu/reaml_name_manage/Domain'
+import StationAdminManage from '@/components/menu/station_admin_manage/StationAdminManage'
 Vue.use(VueRouter)
 
 export default new VueRouter({
@@ -15,14 +15,19 @@ export default new VueRouter({
     },
     {
       path: '/',
-      name: 'menu',
+      name: 'SysManage',
       component: SysManage,
       children: [
         {
-          path: '/web',
-          name: 'setting',
-          component: Websit
-        }
+          path: '/domain',
+          name: 'Domain',
+          component: Domain
+        },
+				{
+				  path: '/station',
+				  name: 'StationAdminManage',
+				  component: StationAdminManage
+				}
       ]
     }
   ]
