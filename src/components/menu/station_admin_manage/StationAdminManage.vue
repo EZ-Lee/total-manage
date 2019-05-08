@@ -49,19 +49,19 @@
 				fixed
 				prop="name"
 				label="姓名"
-				width="300">
+				width="100">
 			</el-table-column>
 			<el-table-column
 				fixed
 				prop="userName"
 				label="用户名"
-				width="300">
+				width="100">
 			</el-table-column>
 			<el-table-column
 				fixed
 				prop="name"
 				label="姓名"
-				width="300">
+				width="100">
 			</el-table-column>
 			<el-table-column
 				fixed
@@ -73,23 +73,25 @@
 				fixed
 				prop="company"
 				label="公司"
-				width="300">
+				>
 			</el-table-column>
 			<el-table-column
 				fixed
 				prop="mobile"
 				label="电话"
-				width="300">
+				width="180">
 			</el-table-column>
 			<el-table-column
+				fixed
 				prop="password"
 				label="密码"
-				width="300">
+				width="180">
 			</el-table-column>
 			<el-table-column
+			  fixed="right"
 				prop="email"
 				label="邮箱"
-				width="80">
+				width="180">
 			</el-table-column>
 			<!-- <el-table-column
 				fixed="right"
